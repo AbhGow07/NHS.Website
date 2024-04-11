@@ -19,11 +19,11 @@ import Tutoring from './pages/Tutoring'
 function App() {
   const [count, setCount] = useState(0)
 
+
   return (
   <>
     <Navbar/>
     <div className="app">
-      
        <Routes>
         <Route element={<Home/>} path="/" />
         <Route element={<Contact/>} path="/contact/"/>
