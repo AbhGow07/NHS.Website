@@ -14,6 +14,7 @@ import CarolingInfo from './pages/CarolingInfo'
 import VolunteerIdeas from './pages/VolunteerIdeas'
 import Gallery from './pages/Gallery'
 import Tutoring from './pages/Tutoring'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -30,7 +31,6 @@ function App() {
         <Route element={<About/>} path="/about/"/>
         <Route element={<Volunteer/>} path="/volunteer/"/>
         <Route element={<Forms/>} path="/forms/"/>
-        <Route element={<CarolingInfo/>} path="/caroling/"/>
         <Route element={<VolunteerIdeas/>} path="/volunteerideas/"/>
         <Route element={<Gallery/>} path="/gallery/"/>
         <Route element={<Tutoring/>} path="/tutoring/"/>
@@ -39,7 +39,7 @@ function App() {
       </Routes>
       
     </div>
-  
+    <Footer />
   </>
   )
 }

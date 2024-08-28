@@ -12,7 +12,6 @@ const Navbar = () => {
             <a className="dropbtn">Resources</a>
             <div className="dropdown-content">
               <a href="/forms">Forms</a>
-              <a href="/caroling">Caroling Info</a>
               <a href="/volunteerideas">Volunteer Ideas</a>
               <a href="/gallery">Gallery</a>
             </div>
