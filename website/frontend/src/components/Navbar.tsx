@@ -6,7 +6,6 @@ const Navbar = () => {
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About Us</a></li>
-          <li><a href="/contact">Contact/FAQ</a></li>
           <li><a href="/volunteer">Volunteer</a></li>
           <div className="dropdown">
             <a className="dropbtn">Resources</a>
@@ -16,7 +15,8 @@ const Navbar = () => {
               <a href="/gallery">Gallery</a>
             </div>
           </div>
-          <li><a href="/tutoring">Tutoring</a></li>
+          <li><a href="https://jhshonorsociety.wixsite.com/tutoring">Tutoring</a></li>
+          <li><a href="/contact">Contact/FAQ</a></li>
         </ul>
       </nav>
 )
